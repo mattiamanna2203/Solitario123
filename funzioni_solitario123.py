@@ -5,6 +5,8 @@ import numpy as np
 ## Con np.tile( X ,4) si ripete il vettore X 4 volte per arrivare alle 40 carte.
 MAZZO_BASE = np.tile(np.arange(1, 11), 4)  # Creo questa al di fuori della function dato che è sempre la stessa non verrà ricreata ogni volta che la funzione  viene chiamata
 
+
+
 def  __simulazione_solitario123__():
    """Funzione per effettuare una simulazione di una singola partita."""
    
